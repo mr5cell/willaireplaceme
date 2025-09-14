@@ -290,11 +290,19 @@ header h1 {
 
 .pagination-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+    padding: 20px;
+}
+
+.pagination-buttons {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    margin-top: 32px;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .pagination-btn {
@@ -719,6 +727,32 @@ footer {
     
     .professions-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .pagination-container {
+        gap: 12px;
+        padding: 16px 8px;
+    }
+    
+    .pagination-buttons {
+        gap: 8px;
+    }
+    
+    .pagination-btn {
+        padding: 10px 12px;
+        min-width: 44px;
+        font-size: 0.9rem;
+    }
+    
+    .page-number {
+        padding: 8px 12px;
+        min-width: 36px;
+        font-size: 0.9rem;
+    }
+    
+    .pagination-info {
+        margin-bottom: 0px;
+        margin-top: 0;
     }
     
     .stats {
