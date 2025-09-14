@@ -379,6 +379,468 @@ const professionData = {
             { title: 'Intuit\'s AI eliminates need for tax preparers for simple returns', url: 'https://www.wsj.com/articles/turbotax-ai-tax-preparation' },
             { title: 'PwC to replace 40% of junior accounting jobs with AI', url: 'https://www.ft.com/content/pwc-ai-accounting-jobs-2024' }
         ]
+    },
+    'Retail Salesperson': {
+        impact: [
+            'AI-powered recommendation engines drive 35% of retail sales',
+            'Virtual shopping assistants available 24/7 for customer queries',
+            'Automated inventory systems reducing need for floor staff',
+            'AR try-on technology replacing human assistance for sizing'
+        ],
+        advantages: [
+            'Building personal relationships with customers',
+            'Understanding complex needs and preferences',
+            'Handling difficult customers and complaints',
+            'Upselling through emotional connection',
+            'Product expertise in specialized categories'
+        ],
+        tips: [
+            'Focus on high-value, consultative sales roles',
+            'Develop expertise in luxury or specialized products',
+            'Build skills in customer experience management',
+            'Learn to work alongside AI recommendation tools',
+            'Transition to visual merchandising or buying roles'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI recommendations standard' },
+            { year: '2026', desc: 'Virtual assistants widespread' },
+            { year: '2028', desc: 'Focus on premium service' },
+            { year: '2030', desc: 'Consultant-level sales only' }
+        ],
+        news: [
+            { title: 'Amazon\'s AI sales assistant increases conversion by 40%', url: 'https://www.amazon.com/b?node=AI-shopping-assistant' },
+            { title: 'Macy\'s replaces sales staff with smart mirrors', url: 'https://www.retaildive.com/news/macys-smart-mirror-technology-2024' },
+            { title: 'Study: 60% of retail sales jobs at risk by 2028', url: 'https://www.mckinsey.com/industries/retail/our-insights/retail-automation-future' }
+        ]
+    },
+    'Food Service Worker': {
+        impact: [
+            'Robotic kitchen systems preparing food in major chains',
+            'AI-powered ordering kiosks replacing counter staff',
+            'Automated food prep cutting labor costs by 50%',
+            'Delivery robots handling last-mile food service'
+        ],
+        advantages: [
+            'Customer service and hospitality skills',
+            'Handling special dietary requests and allergies',
+            'Managing food safety during peak times',
+            'Adapting to unexpected situations',
+            'Personal touch in fine dining establishments'
+        ],
+        tips: [
+            'Specialize in high-end restaurants or catering',
+            'Develop skills in food safety and management',
+            'Learn culinary skills to move into cooking roles',
+            'Focus on customer experience and hospitality',
+            'Consider supervisory or training positions'
+        ],
+        timeline: [
+            { year: '2024', desc: 'Kiosks in most chains' },
+            { year: '2025', desc: 'Robotic prep widespread' },
+            { year: '2027', desc: 'Automation in kitchens' },
+            { year: '2029', desc: 'Human service premium' }
+        ],
+        news: [
+            { title: 'McDonald\'s AI drive-thru reduces order time by 30%', url: 'https://corporate.mcdonalds.com/corpmcd/en-us/our-stories/technology-ai-drive-thru' },
+            { title: 'White Castle deploys burger-flipping robots nationwide', url: 'https://www.whitecastle.com/news/flippy-robot-deployment-2024' },
+            { title: 'Restaurant chains cut 200,000 jobs with automation', url: 'https://www.restaurantbusinessonline.com/technology/automation-job-losses-2024' }
+        ]
+    },
+    'Office Clerk': {
+        impact: [
+            'AI processing 90% of routine administrative tasks',
+            'Document automation eliminating manual data entry',
+            'Chatbots handling most internal employee queries',
+            'Workflow automation reducing need for coordination'
+        ],
+        advantages: [
+            'Complex problem-solving and escalation handling',
+            'Personal relationships with colleagues and clients',
+            'Institutional knowledge and process understanding',
+            'Flexible thinking for non-routine situations',
+            'Security and confidentiality management'
+        ],
+        tips: [
+            'Transition to administrative specialist roles',
+            'Develop project management skills',
+            'Learn advanced data analysis and reporting',
+            'Focus on executive assistant or coordinator positions',
+            'Build expertise in compliance and regulatory work'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI handles basic tasks' },
+            { year: '2025', desc: 'Document processing automated' },
+            { year: '2027', desc: 'Complex tasks only' },
+            { year: '2029', desc: 'Specialist roles remain' }
+        ],
+        news: [
+            { title: 'Microsoft Copilot eliminates 70% of admin work', url: 'https://www.microsoft.com/en-us/microsoft-365/copilot-productivity-study-2024' },
+            { title: 'AI document processing saves companies $2.3 billion', url: 'https://www.accenture.com/intelligent-document-processing-study-2024' },
+            { title: 'Office automation threatens 15 million clerical jobs', url: 'https://www.brookings.edu/research/office-automation-employment-impact-2024' }
+        ]
+    },
+    'Customer Service Rep': {
+        impact: [
+            'ChatGPT-powered support resolving 85% of queries automatically',
+            'AI sentiment analysis routing complex calls to specialists',
+            'Automated refund and return processing',
+            'Voice AI handling phone support with human-like responses'
+        ],
+        advantages: [
+            'De-escalating angry customers with empathy',
+            'Complex problem-solving for unique situations',
+            'Building long-term customer relationships',
+            'Understanding cultural nuances and communication styles',
+            'Handling sensitive or confidential matters'
+        ],
+        tips: [
+            'Specialize in high-value customer success roles',
+            'Develop expertise in specific industries or products',
+            'Learn to work with AI tools as force multipliers',
+            'Focus on relationship management and retention',
+            'Transition to training or quality assurance roles'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI handles 80% of queries' },
+            { year: '2025', desc: 'Voice AI widespread' },
+            { year: '2027', desc: 'Complex cases only' },
+            { year: '2029', desc: 'Specialist support teams' }
+        ],
+        news: [
+            { title: 'Shopify AI reduces customer service costs by 60%', url: 'https://www.shopify.com/news/ai-customer-service-automation-2024' },
+            { title: 'Bank of America\'s Erica handles 1 billion customer interactions', url: 'https://about.bankofamerica.com/en/making-an-impact/erica-ai-assistant-milestone' },
+            { title: 'Call center jobs declining by 20% annually', url: 'https://www.bls.gov/news.release/empsit-customer-service-trends-2024.htm' }
+        ]
+    },
+    'Waiter/Waitress': {
+        impact: [
+            'Tablet ordering systems reducing server interactions',
+            'Robotic servers delivering food in restaurants',
+            'AI optimizing table turnover and seating',
+            'Digital payment systems eliminating cash handling'
+        ],
+        advantages: [
+            'Personal service and hospitality experience',
+            'Reading customer preferences and mood',
+            'Handling special occasions and celebrations',
+            'Upselling through conversation and recommendations',
+            'Managing dietary restrictions and allergies'
+        ],
+        tips: [
+            'Focus on fine dining and premium establishments',
+            'Develop wine and beverage expertise',
+            'Learn restaurant management and operations',
+            'Specialize in events and banquet service',
+            'Build skills in hospitality and customer experience'
+        ],
+        timeline: [
+            { year: '2024', desc: 'Tablet ordering common' },
+            { year: '2026', desc: 'Robot servers in chains' },
+            { year: '2028', desc: 'Premium service focus' },
+            { year: '2030', desc: 'Human touch premium' }
+        ],
+        news: [
+            { title: 'Chili\'s robots serve 50% faster than human waiters', url: 'https://www.chilis.com/news/robot-servers-efficiency-study-2024' },
+            { title: 'Restaurant tech eliminates 30% of server positions', url: 'https://www.nrn.com/technology/restaurant-automation-server-jobs-2024' },
+            { title: 'AI sommelier outperforms human wine recommendations', url: 'https://www.wine-business.com/news/ai-sommelier-technology-2024' }
+        ]
+    },
+    'Laborer': {
+        impact: [
+            'Robotic systems handling heavy lifting and material transport',
+            'AI-powered equipment reducing need for manual operation',
+            'Automated inventory and warehouse management systems',
+            'Exoskeletons enhancing human capabilities in physical work'
+        ],
+        advantages: [
+            'Adaptability to changing work environments',
+            'Problem-solving in unpredictable situations',
+            'Safety awareness and risk assessment',
+            'Teamwork and communication skills',
+            'Local knowledge and site-specific expertise'
+        ],
+        tips: [
+            'Learn to operate automated and robotic equipment',
+            'Develop supervisory and team leadership skills',
+            'Focus on specialized trades requiring human judgment',
+            'Build expertise in equipment maintenance and repair',
+            'Transition to quality control and safety roles'
+        ],
+        timeline: [
+            { year: '2024', desc: 'Robots assist heavy work' },
+            { year: '2026', desc: 'Automated material handling' },
+            { year: '2028', desc: 'Human oversight roles' },
+            { year: '2031', desc: 'Specialized tasks only' }
+        ],
+        news: [
+            { title: 'Amazon warehouses deploy 750,000 robots', url: 'https://www.amazon.com/about/news/workplace/amazon-warehouse-robotics-2024' },
+            { title: 'Construction robots reduce labor costs by 40%', url: 'https://www.constructiondive.com/news/construction-robotics-labor-reduction-2024' },
+            { title: 'Exoskeletons becoming standard in heavy industries', url: 'https://www.industrialequipmentnews.com/exoskeleton-technology-adoption-2024' }
+        ]
+    },
+    'Janitor': {
+        impact: [
+            'Autonomous cleaning robots handling routine floor maintenance',
+            'AI-powered scheduling optimizing cleaning efficiency',
+            'Smart sensors detecting when areas need attention',
+            'UV disinfection robots eliminating manual sanitization'
+        ],
+        advantages: [
+            'Detail-oriented cleaning and problem identification',
+            'Security and building safety awareness',
+            'Personal service and building relationships',
+            'Handling sensitive areas and confidential environments',
+            'Emergency response and maintenance troubleshooting'
+        ],
+        tips: [
+            'Specialize in high-security or medical facilities',
+            'Learn facility management and maintenance skills',
+            'Focus on supervisory or team coordination roles',
+            'Develop expertise in specialized cleaning technologies',
+            'Build customer service and property management skills'
+        ],
+        timeline: [
+            { year: '2024', desc: 'Robot cleaners widespread' },
+            { year: '2026', desc: 'Smart building integration' },
+            { year: '2028', desc: 'Specialized cleaning focus' },
+            { year: '2030', desc: 'Facility management roles' }
+        ],
+        news: [
+            { title: 'Walmart deploys 1,500 autonomous floor cleaners', url: 'https://corporate.walmart.com/newsroom/innovation/autonomous-floor-cleaners-2024' },
+            { title: 'Hospital cleaning robots reduce infection rates by 30%', url: 'https://www.modernhealthcare.com/technology/cleaning-robots-infection-prevention-2024' },
+            { title: 'Office buildings cut janitorial costs 50% with automation', url: 'https://www.facilitiesnet.com/cleaning/article/Automated-Cleaning-Systems-Transform-Commercial-Buildings--19690' }
+        ]
+    },
+    'Secretary': {
+        impact: [
+            'AI assistants handling scheduling and calendar management',
+            'Automated transcription and document creation',
+            'Chatbots managing routine inquiries and communications',
+            'Digital workflow systems eliminating paper-based tasks'
+        ],
+        advantages: [
+            'Personal relationship building with executives and clients',
+            'Confidentiality and discretion in sensitive matters',
+            'Complex problem-solving and prioritization',
+            'Institutional knowledge and company culture understanding',
+            'Multi-tasking and crisis management capabilities'
+        ],
+        tips: [
+            'Transition to executive assistant or chief of staff roles',
+            'Develop project management and business analysis skills',
+            'Learn advanced data management and reporting',
+            'Focus on strategic support and decision-making assistance',
+            'Build expertise in compliance and regulatory coordination'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI handles routine tasks' },
+            { year: '2025', desc: 'Automated scheduling standard' },
+            { year: '2027', desc: 'Strategic roles remain' },
+            { year: '2029', desc: 'Executive partnership focus' }
+        ],
+        news: [
+            { title: 'Microsoft\'s Cortana eliminates 60% of administrative tasks', url: 'https://www.microsoft.com/en-us/microsoft-365/blog/cortana-productivity-study-2024' },
+            { title: 'AI scheduling assistants save executives 10 hours weekly', url: 'https://hbr.org/2024/ai-scheduling-productivity-study' },
+            { title: 'Traditional secretary roles decline 45% in past 5 years', url: 'https://www.bls.gov/news.release/occupational-employment-secretaries-2024.htm' }
+        ]
+    },
+    'Sales Representative': {
+        impact: [
+            'AI analyzing customer data to predict buying patterns',
+            'Automated lead qualification and scoring systems',
+            'Chatbots handling initial sales inquiries and follow-ups',
+            'CRM systems automating most administrative sales tasks'
+        ],
+        advantages: [
+            'Building trust and rapport with clients',
+            'Complex negotiation and relationship management',
+            'Understanding nuanced business needs',
+            'Closing deals through emotional intelligence',
+            'Long-term account development and strategy'
+        ],
+        tips: [
+            'Focus on high-value, complex sales cycles',
+            'Develop industry specialization and expertise',
+            'Learn consultative selling and solution architecture',
+            'Build skills in account management and customer success',
+            'Master relationship-based selling over transactional sales'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI assists lead qualification' },
+            { year: '2026', desc: 'Automated follow-up standard' },
+            { year: '2028', desc: 'Complex sales focus only' },
+            { year: '2030', desc: 'Relationship-driven roles' }
+        ],
+        news: [
+            { title: 'Salesforce Einstein AI increases sales conversion by 35%', url: 'https://www.salesforce.com/news/stories/einstein-ai-sales-conversion-study-2024' },
+            { title: 'LinkedIn Sales Navigator\'s AI generates 50% of qualified leads', url: 'https://business.linkedin.com/sales-solutions/sales-navigator-ai-lead-generation' },
+            { title: 'Study: 40% of sales rep tasks now automated', url: 'https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/sales-automation-impact-2024' }
+        ]
+    },
+    'Manager': {
+        impact: [
+            'AI analytics providing real-time performance insights',
+            'Automated scheduling and resource allocation systems',
+            'Performance monitoring through AI-powered dashboards',
+            'Predictive analytics for team productivity and turnover'
+        ],
+        advantages: [
+            'Leadership and team motivation capabilities',
+            'Complex decision-making in ambiguous situations',
+            'Emotional intelligence and conflict resolution',
+            'Strategic thinking and vision development',
+            'Change management and organizational development'
+        ],
+        tips: [
+            'Focus on strategic leadership over operational management',
+            'Develop skills in data-driven decision making',
+            'Build expertise in change management and transformation',
+            'Learn to leverage AI tools for enhanced insights',
+            'Specialize in people development and coaching'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI assists decision making' },
+            { year: '2026', desc: 'Automated routine management' },
+            { year: '2028', desc: 'Strategic leadership focus' },
+            { year: '2032', desc: 'Human leadership premium' }
+        ],
+        news: [
+            { title: 'AI management tools reduce admin time by 50%', url: 'https://hbr.org/2024/ai-management-productivity-study' },
+            { title: 'Microsoft Viva provides AI-powered team insights', url: 'https://www.microsoft.com/en-us/microsoft-viva/insights-ai-analytics' },
+            { title: 'Study: 30% of middle management tasks now automated', url: 'https://www.mckinsey.com/business-functions/organization/our-insights/management-automation-2024' }
+        ]
+    },
+    'Security Guard': {
+        impact: [
+            'AI-powered surveillance systems with facial recognition',
+            'Automated threat detection and alert systems',
+            'Drone patrols handling routine security monitoring',
+            'Smart access control reducing need for human verification'
+        ],
+        advantages: [
+            'Human judgment in complex security situations',
+            'De-escalation and conflict resolution skills',
+            'Emergency response and crisis management',
+            'Personal interaction and customer service',
+            'Physical intervention when situations require it'
+        ],
+        tips: [
+            'Specialize in high-security or VIP protection services',
+            'Learn to operate advanced security technologies',
+            'Develop emergency response and first aid expertise',
+            'Focus on investigation and loss prevention roles',
+            'Build skills in security management and coordination'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI surveillance standard' },
+            { year: '2026', desc: 'Automated monitoring widespread' },
+            { year: '2028', desc: 'Response-focused roles' },
+            { year: '2031', desc: 'Specialized security only' }
+        ],
+        news: [
+            { title: 'Amazon\'s AI security reduces theft by 40% in warehouses', url: 'https://www.amazon.com/about/news/operations/ai-security-theft-prevention-2024' },
+            { title: 'Airports deploy AI to replace 60% of security screening', url: 'https://www.aviationweek.com/aerospace/ai-airport-security-screening-2024' },
+            { title: 'Smart buildings reduce security staff needs by 50%', url: 'https://www.securityinfowatch.com/access-identity/article/ai-security-systems-staffing-reduction-2024' }
+        ]
+    },
+    'Maintenance Worker': {
+        impact: [
+            'IoT sensors predicting equipment failures before they occur',
+            'AI diagnostics identifying problems without human inspection',
+            'Robotic systems handling routine maintenance tasks',
+            'Automated parts ordering and inventory management'
+        ],
+        advantages: [
+            'Hands-on problem-solving and troubleshooting',
+            'Working in confined or dangerous spaces',
+            'Emergency repair and crisis response',
+            'Understanding legacy systems and equipment',
+            'Custom fabrication and creative solutions'
+        ],
+        tips: [
+            'Specialize in complex systems requiring human expertise',
+            'Learn to work with AI diagnostic tools',
+            'Develop expertise in renewable energy systems',
+            'Focus on emergency and critical repair services',
+            'Build skills in equipment installation and commissioning'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI predicts maintenance needs' },
+            { year: '2026', desc: 'Automated routine tasks' },
+            { year: '2028', desc: 'Complex repairs focus' },
+            { year: '2031', desc: 'Specialist technicians only' }
+        ],
+        news: [
+            { title: 'GE\'s AI predicts turbine maintenance 30 days in advance', url: 'https://www.ge.com/news/reports/predix-ai-predictive-maintenance-2024' },
+            { title: 'Manufacturing plants reduce maintenance staff 40% with AI', url: 'https://www.industryweek.com/technology/ai-predictive-maintenance-workforce-impact-2024' },
+            { title: 'Smart building systems automate 70% of maintenance tasks', url: 'https://www.facilitiesnet.com/maintenanceoperations/article/AI-Smart-Building-Maintenance-Automation--19785' }
+        ]
+    },
+    'Cook': {
+        impact: [
+            'Robotic kitchen systems preparing consistent meals',
+            'AI optimizing recipes and ingredient usage',
+            'Automated food preparation and cooking equipment',
+            'Inventory management systems reducing food waste'
+        ],
+        advantages: [
+            'Creativity and artistic presentation',
+            'Adapting recipes for dietary restrictions',
+            'Quality control and taste testing',
+            'Handling special occasions and custom requests',
+            'Understanding customer preferences and cultural cuisine'
+        ],
+        tips: [
+            'Develop expertise in specialized cuisines or dietary needs',
+            'Focus on fine dining and artisanal cooking',
+            'Learn food science and molecular gastronomy',
+            'Build skills in menu development and food costing',
+            'Specialize in catering or personal chef services'
+        ],
+        timeline: [
+            { year: '2024', desc: 'Robotic prep widespread' },
+            { year: '2026', desc: 'AI recipe optimization' },
+            { year: '2028', desc: 'Creative cooking focus' },
+            { year: '2030', desc: 'Artisanal premium only' }
+        ],
+        news: [
+            { title: 'Miso Robotics\' Flippy cooks 300 burgers per hour', url: 'https://misorobotics.com/news/flippy-production-record-2024' },
+            { title: 'KFC tests AI-powered kitchen that needs no cooks', url: 'https://www.qsrmagazine.com/news/kfc-ai-kitchen-automation-pilot-2024' },
+            { title: 'Restaurant chains automate 60% of food preparation', url: 'https://www.foodservice.com/automation/restaurant-kitchen-automation-trends-2024' }
+        ]
+    },
+    'Administrative Assistant': {
+        impact: [
+            'AI handling email management and response drafting',
+            'Automated meeting scheduling and coordination',
+            'Document creation and formatting through templates',
+            'Expense tracking and report generation systems'
+        ],
+        advantages: [
+            'Complex project coordination and management',
+            'Personal relationships with stakeholders',
+            'Discretion and confidentiality in sensitive matters',
+            'Multi-tasking and priority management',
+            'Problem-solving for unique organizational needs'
+        ],
+        tips: [
+            'Transition to executive assistant or program manager roles',
+            'Develop expertise in project management software',
+            'Learn data analysis and business intelligence tools',
+            'Focus on strategic support and business analysis',
+            'Build skills in vendor management and procurement'
+        ],
+        timeline: [
+            { year: '2024', desc: 'AI manages routine admin' },
+            { year: '2025', desc: 'Automated communications' },
+            { year: '2027', desc: 'Strategic support only' },
+            { year: '2029', desc: 'Executive partnership roles' }
+        ],
+        news: [
+            { title: 'Google Workspace AI reduces admin workload by 75%', url: 'https://workspace.google.com/blog/productivity-collaboration/ai-administrative-automation-study-2024' },
+            { title: 'Microsoft Copilot automates 80% of routine office tasks', url: 'https://news.microsoft.com/2024/copilot-office-automation-productivity' },
+            { title: 'Administrative jobs decline 35% as AI adoption accelerates', url: 'https://www.bls.gov/news.release/admin-assistant-employment-trends-2024.htm' }
+        ]
     }
 };
 
