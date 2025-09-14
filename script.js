@@ -991,6 +991,12 @@ function analyzeProfession(profession, vulnerabilityScore) {
     currentProfession = profession;
     currentScore = vulnerabilityScore;
     
+    // Update URL without page reload
+    const url = new URL(window.location);
+    url.searchParams.set('profession', encodeURIComponent(profession));
+    url.searchParams.set('score', vulnerabilityScore);
+    window.history.pushState({ profession, vulnerabilityScore }, '', url);
+    
     document.getElementById('intro').classList.add('hidden');
     document.getElementById('analysis').classList.remove('hidden');
     
@@ -1079,6 +1085,12 @@ function analyzeProfession(profession, vulnerabilityScore) {
 }
 
 function backToSelection() {
+    // Update URL to remove profession parameters
+    const url = new URL(window.location);
+    url.searchParams.delete('profession');
+    url.searchParams.delete('score');
+    window.history.pushState({}, '', url);
+    
     document.getElementById('analysis').classList.add('hidden');
     document.getElementById('comparison').classList.add('hidden');
     document.getElementById('intro').classList.remove('hidden');
@@ -1090,17 +1102,18 @@ function backToAnalysis() {
 }
 
 function shareResults() {
-    const text = `I just checked my AI vulnerability score on Will AI Replace Me Today! ${currentProfession}: ${currentScore}% vulnerable to AI automation. Check yours at willaireplaceme.today`;
+    const professionURL = `${window.location.origin}${window.location.pathname}?profession=${encodeURIComponent(currentProfession)}&score=${currentScore}`;
+    const text = `I just checked my AI vulnerability score on Will AI Replace Me Today! ${currentProfession}: ${currentScore}% vulnerable to AI automation. Check yours at ${professionURL}`;
     
     if (navigator.share) {
         navigator.share({
-            title: 'Will AI Replace Me Today?',
+            title: `${currentProfession} - Will AI Replace Me Today?`,
             text: text,
-            url: window.location.href
+            url: professionURL
         });
     } else {
-        navigator.clipboard.writeText(text);
-        alert('Results copied to clipboard!');
+        navigator.clipboard.writeText(professionURL);
+        alert('Direct link copied to clipboard!');
     }
 }
 
@@ -1136,7 +1149,37 @@ function compareJobs() {
     `;
 }
 
+// Handle browser back/forward buttons
+window.addEventListener('popstate', (event) => {
+    if (event.state && event.state.profession) {
+        // User navigated back to a profession page
+        analyzeProfession(event.state.profession, event.state.vulnerabilityScore);
+    } else {
+        // User navigated back to main page
+        backToSelection();
+    }
+});
+
+// Load profession from URL parameters on page load
+function loadFromURL() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const profession = urlParams.get('profession');
+    const score = urlParams.get('score');
+    
+    if (profession && score) {
+        // Find the profession in our database to get the exact name match
+        const professionData = allProfessionsList.find(p => 
+            p.name.toLowerCase() === profession.toLowerCase()
+        );
+        
+        if (professionData) {
+            analyzeProfession(professionData.name, parseInt(score));
+        }
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#analysis-count .count').textContent = analysisCount;
     initializeProfessions();
+    loadFromURL();
 });

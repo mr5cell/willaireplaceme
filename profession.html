@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Will AI Replace Me Today?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Will AI Replace Me Today?</h1>
+            <p class="tagline">An honest look at your profession's future</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <button class="back-button" onclick="window.location.href = 'index.html'">← Back to Professions</button>
+                
+                <h2 id="profession-title"></h2>
+                
+                <div class="vulnerability-meter">
+                    <div class="meter-label">AI Vulnerability Score</div>
+                    <div class="meter-container">
+                        <div class="meter-fill" id="meter-fill"></div>
+                        <div class="meter-percentage" id="meter-percentage">0%</div>
+                    </div>
+                    <div class="risk-level" id="risk-level"></div>
+                </div>
+
+                <div class="timeline-section">
+                    <h3>Estimated Timeline</h3>
+                    <div class="timeline" id="timeline"></div>
+                </div>
+
+                <div class="analysis-sections">
+                    <div class="analysis-section">
+                        <h3>What This Means</h3>
+                        <p id="vulnerability-explanation"></p>
+                    </div>
+
+                    <div class="analysis-section">
+                        <h3>AI Impact Areas</h3>
+                        <ul id="impact-areas"></ul>
+                    </div>
+
+                    <div class="analysis-section">
+                        <h3>Your Human Advantages</h3>
+                        <ul id="human-advantages"></ul>
+                    </div>
+
+                    <div class="analysis-section">
+                        <h3>How to Future-Proof Yourself</h3>
+                        <ul id="future-proof-tips"></ul>
+                    </div>
+                </div>
+
+                <div class="share-section">
+                    <button class="share-button" onclick="shareResults()">Share Results</button>
+                    <button class="compare-button" onclick="window.location.href = 'comparison.html'">Compare Professions</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="stats">
+                <span id="analysis-count">Analyses performed: <span class="count">0</span></span>
+                <span id="most-vulnerable">Most vulnerable today: <span id="most-vulnerable-job">Cashier</span></span>
+            </div>
+            <p class="footer-text">Data based on current AI capabilities and industry trends • Not financial or career advice</p>
+        </footer>
+    </div>
+
+    <div class="floating-particles"></div>
+
+    <script src="profession.js"></script>
+</body>
+</html>
